@@ -9,7 +9,7 @@ const io = socketio(server)
 
 const port = process.env.PORT || 3000
 // Define paths for Express config
-const publicDirectoryPath = path.join(__dirname, './public')
+const publicDirectoryPath = path.join(__dirname, '../public')
 
 // Setup static directory to serve
 app.use(express.static(publicDirectoryPath))
