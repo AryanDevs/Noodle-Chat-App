@@ -67,23 +67,7 @@ const getUsersInRoom = (room) => {
 }
 
 
-//  addUser({
-//     id: 120,
-//     username: 'Boiii',
-//     room: 'roomers'
-// });
-//  const res=addUser({
-//     id: 121,
-//     username: 'goi',
-//     room: 'roomers'
-// });
-//  addUser({
-//     id: 1203,
-//     username: 'sheldon',
-//     room: 'roomers'
-// });
 
-// console.log(getUsersInRoom('roomers'));
 
 
 
