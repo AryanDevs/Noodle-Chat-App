@@ -5,12 +5,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat App</title>
+
+    </style>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <h1>Chat App</h1>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/client_js/chat.js"></script>
+    <div class="centered-form">
+        <div class="centered-form__box">
+            <h1>Join</h1>
+            <form action="./chat.html">
+                <label>Display Name</label>
+                <input type="text" placeholder="This will be displayed" name="username" required>
+
+                <label>Room name</label>
+                <input type="text" placeholder="Room name" name="room" required>
+
+                <button>Join Room</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
